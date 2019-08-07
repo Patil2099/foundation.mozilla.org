@@ -1,6 +1,7 @@
 {% extends "pages/base.html" %} {% load wagtailcore_tags wagtailimages_tags %}
+{% load i18n %}
 
-{% block page_title %}Page Not Found{% endblock %}
+{% block page_title %}{% trans "Page Not Found" %}{% endblock %}
 
 {% block body_id %}404{% endblock%}
 
